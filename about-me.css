@@ -1,0 +1,57 @@
+*
+  body{ margin: 0;
+   padding: 0;
+  
+   background-image: url(images/img5.jfif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+  
+}
+
+.header {
+        padding-top: 500px;
+        display: flex;justify-content: center;
+        font-size: 100;
+      }
+
+
+
+.topnav {
+    background-color:white;
+    font-size: x-large;
+    text-decoration: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+
+  }
+
+.topnav a{text-decoration: none;
+
+}
+  .topnav a:hover{
+      background-color: whitesmoke;
+  }
+
+
+  h1{
+      color: seashell;
+      font-style: oblique;
+      display: flex;
+      justify-content: center;
+  }
+  .social-media-icons{
+
+      display: flex;
+      flex-direction: row-reverse;
+      align-content: space-between;
+  }
+  .Education{
+    text-align: center;
+    font-style: normal;
+    font-size:large;
+
+
+  }
